@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Press Start 2P", cursive;
+  line-height: 2rem;
 }
 
 header {
@@ -50,6 +51,10 @@ header img {
   font-size: 5vw;
   justify-content: center;
   align-items: center;
+}
+.intro p {
+  text-align: start;
+  margin: 5% 5% 5% 10%;
 }
 main {
   font-family: "Press Start 2P", cursive;
