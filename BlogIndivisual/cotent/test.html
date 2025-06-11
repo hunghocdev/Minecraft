@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Banner Ảnh Chạy Tự Động</title>
+    <style>
+      .banner-container {
+        width: 600px;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .banner {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        animation: slideImages 12s infinite;
+      }
+
+      @keyframes slideImages {
+        0% {
+          background-image: url("../img/R.png");
+        }
+        33% {
+          background-image: url("../img/Background.jpg");
+        }
+        66% {
+          background-image: url("../img/banner.jpg");
+        }
+        100% {
+          background-image: url("../img/hung.jpg");
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner-container">
+      <div class="banner"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: url("https://source.unsplash.com/random/1920x1080") no-repeat
+    center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("../img/backgroundpaging.jpg");
+}
+/* 👉 Đây là khung nền phía sau form */
+.login-background {
+  background-color: rgba(255, 255, 255, 0.726); /* Nền mờ */
+  /* backdrop-filter: blur(10px); Làm mờ nền phía sau */
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  user-select: none;
+}
+.login-container {
+  width: 320px;
+}
+.login-container h2 {
+  text-align: center;
+  color: rgb(236, 3, 3);
+}
+.login-container label,
+.login-container input,
+.login-container button {
+  display: block;
+  width: 100%;
+  /* margin: 10px; */
+}
+h2 {
+}
+
+.login-container input {
+  padding: 10px;
+  border-radius: 8px;
+  opacity: 1;
+  /* border: none; */
+}
+
+.login-container button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
